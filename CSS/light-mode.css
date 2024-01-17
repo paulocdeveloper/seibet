@@ -1,0 +1,88 @@
+.dark{
+    background-color: #F3F4FB;
+}
+
+.dark a {
+    color:#232A5C;
+}
+
+.dark a:hover {
+    color:#E9521D;
+}
+
+.dark .button {
+    background-color:#8085B2;
+}
+
+.dark .header-dark{
+    background: linear-gradient(180deg, #F3F4FB 51.95%, #BABDD0 126.97%, #7D82A1 179.69%, #535981 244.57%, #232A5C 252.68%);
+}
+
+.dark .text-icon {
+    color:#232A5C;
+    font-size: 16px;
+}
+
+.dark #esportes {
+    background-color:#F3F4FB;
+}
+
+.dark select {
+    background-color: unset;
+    color: #232A5C;
+}
+
+.dark .filter {
+    background-color: unset;
+    color: #232A5C;
+    margin-right: 20px;
+}
+
+.dark .banner-time {
+    border: 5px solid #F3F4FB;
+    border-radius: 10px;
+}
+
+.dark .title-events {
+    color: #232A5C;
+}
+
+.dark .slide01{
+    background: linear-gradient(180deg, #F3F4FB 40.47%, #BABDD0 72.33%, #7D82A1 94.72%, #535981 122.27%, #232A5C 125.71%);
+}
+
+.dark p {
+    color:#292C3D;
+}
+
+.dark em {
+    color:#292C3D;
+}
+
+.dark .box {
+    background-color:#F3F4FB;
+}
+
+.dark .container-categorias {
+    background-color: #e3e4e8;
+}
+
+.dark #all-categorias {
+    background: linear-gradient(0deg, #F3F4FB, #F3F4FB),
+    linear-gradient(0deg, #F3F4FB, #F3F4FB);
+}
+
+.dark #all-categorias select {
+    background-color: unset;
+    color: #E9521D;
+}
+
+.dark .all-categorias {
+    background-color: #FAFAFA;
+    color:#8085B2;
+}
+
+.dark .footer-line1 > div > p {
+    color:#232A5C;
+}
+
