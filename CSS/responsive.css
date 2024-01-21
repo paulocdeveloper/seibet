@@ -1,0 +1,25 @@
+/* dispositivos móveis */
+
+@media screen and (max-width: 480px) {
+    body {
+        display: flex;
+    }
+}
+
+/*  iPads, tablets */
+
+@media screen and (max-width: 768px) {
+    
+}
+
+/* telas pequenas, laptops */
+
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* desktops, telas grandes */
+
+@media screen and (max-width: 1200px) {
+    
+}

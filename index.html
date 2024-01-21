@@ -7,6 +7,7 @@
     <link rel="shortcut icon" type="image/jpg" href="assets/favicon.ico"/>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/light-mode.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
     
 </head>
 <body>
@@ -68,67 +69,70 @@
         </div>   
     </header>
 
-    <section class="slider">
-        <div class="slider-content">   
-            <input type="radio" name="btn-radio" id="radio1">
-            <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3">
+    <section class="bannerAndtime">
+        <section class="slider">
+            <div class="slider-content">   
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+        
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="assets/banner.png" alt="slide 1">
+                    <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
+                </div>
+        
+                <div class="slide-box">
+                    <img class="img-desktop" src="assets/banner.png" alt="slide 3">
+                    <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
+                </div>
+        
+                <div class="slide-box">
+                    <img class="img-desktop" src="assets/banner.png" alt="slide 3">
+                    <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
+                </div>
+        
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+        
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>   
+        </section>  
+        
+        <div class="banner-time">
+            <div class="content-banner-time">
+                <img class="worldcup" src="assets/image_fifa.png" alt="">
+                <img class="detail-ball" src="assets/Frame20115.png" alt="">
+                <div class="content-time">
+                    <h3 class="tempo-banner-time">52</h3>
+                    <h3 class="subtitle-banner-time">days</h3>
+                </div>
+                
+                <div class="content-time">
+                    <h3 class="tempo-banner-time">03</h>
+                    <h3 class="subtitle-banner-time">hours</h3>
+                </div>       
+               
+                <div class="content-time">
+                    <h3 class="tempo-banner-time">55</h3>
+                    <h3 class="subtitle-banner-time">minutes</h3>
+                </div>
+                
+                <div class="content-time">
+                    <h3 class="tempo-banner-time">40</h3>
+                    <h3 class="subtitle-banner-time">seconds</h3>
+                </div>
+                <img class="detail-ball" src="assets/Frame20116.png" alt="">
+            </div>    
+        </div>
+    </section>
     
-            <div class="slide-box primeiro">
-                <img class="img-desktop" src="assets/banner.png" alt="slide 1">
-                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
-            </div>
-    
-            <div class="slide-box">
-                <img class="img-desktop" src="assets/banner.png" alt="slide 3">
-                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
-            </div>
-    
-            <div class="slide-box">
-                <img class="img-desktop" src="assets/banner.png" alt="slide 3">
-                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
-            </div>
-    
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-            </div>
-    
-            <div class="nav-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-            </div>
-        </div>   
-    </section>  
-    
-    <div class="banner-time">
-        <div class="content-banner-time">
-            <img class="worldcup" src="assets/image_fifa.png" alt="">
-            <img class="detail-ball" src="assets/Frame20115.png" alt="">
-            <div class="content-time">
-                <h3 class="tempo-banner-time">52</h3>
-                <h3 class="subtitle-banner-time">days</h3>
-            </div>
-            
-            <div class="content-time">
-                <h3 class="tempo-banner-time">03</h>
-                <h3 class="subtitle-banner-time">hours</h3>
-            </div>       
-           
-            <div class="content-time">
-                <h3 class="tempo-banner-time">55</h3>
-                <h3 class="subtitle-banner-time">minutes</h3>
-            </div>
-            
-            <div class="content-time">
-                <h3 class="tempo-banner-time">40</h3>
-                <h3 class="subtitle-banner-time">seconds</h3>
-            </div>
-            <img class="detail-ball" src="assets/Frame20116.png" alt="">
-        </div>    
-    </div>
 
     <div>
         <h2 class="title-events">Popular events</h2>

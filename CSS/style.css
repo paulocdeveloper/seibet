@@ -109,6 +109,10 @@ h2 {
     justify-content: space-between;
 }
 
+.bannerAndtime {
+    background-color: black;
+}
+
 #esportes {
     display: flex;
     align-items: center;
