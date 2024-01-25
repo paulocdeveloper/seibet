@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.querySelector('.ball').addEventListener('click', (e)=>{
     e.target.classList.toggle('ball-move');
-    document.body.classList.toggle('dark');
+    document.body.classList.toggle('light');
 });
 
 // Fim button DARK and Light

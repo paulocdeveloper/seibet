@@ -1,92 +1,106 @@
-.dark{
-    background-color: #F3F4FB;
+:root {
+    --cor-backgroundLight: #F3F4FB;
+    --cor-letraLight: #232A5C;
+    --cor-hover: #E9521D;
+    --cor-seeAll: #8085B2;
+    --cor-backgroundCategoria: #292C3D;
+    --cor-backgroundLightCategoria: #e3e4e8;
+    --cor-background-allCategoria: #FAFAFA;
+
+    --gradient-headerLight: linear-gradient(180deg, #F3F4FB 51.95%, #BABDD0 126.97%, #7D82A1 179.69%, #535981 244.57%, #232A5C 252.68%);
+    --gradient-slideLight: linear-gradient(180deg, #F3F4FB 40.47%, #BABDD0 72.33%, #7D82A1 94.72%, #535981 122.27%, #232A5C 125.71%);
+    --gradient-lightAllCategoria: linear-gradient(0deg, #F3F4FB, #F3F4FB), linear-gradient(0deg, #F3F4FB, #F3F4FB);
+
 }
 
-.dark a {
-    color:#232A5C;
+.light{
+    background-color: var(--cor-backgroundLight);
 }
 
-.dark a:hover {
-    color:#E9521D;
+.light a {
+    color: var(--cor-letraLight);
 }
 
-.dark .button {
-    background-color:#8085B2;
+.light a:hover {
+    color: var(--cor-hover);
 }
 
-.dark .header-dark{
-    background: linear-gradient(180deg, #F3F4FB 51.95%, #BABDD0 126.97%, #7D82A1 179.69%, #535981 244.57%, #232A5C 252.68%);
+.light .button {
+    background-color: var(--cor-seeAll);
 }
 
-.dark .text-icon {
-    color:#232A5C;
+.light .header-dark{
+    background: var(--gradient-headerLight);
+}
+
+.light .text-icon {
+    color:var(--cor-letraLight);
     font-size: 16px;
 }
 
-.dark .bannerAndtime {
-    background-color: #F3F4FB;
+.light .bannerAndtime {
+    background-color: var(--cor-backgroundLight);
 }
 
-.dark #esportes {
-    background-color:#F3F4FB;
+.light #esportes {
+    background-color: var(--cor-backgroundLight);
 }
 
-.dark select {
+.light select {
     background-color: unset;
-    color: #232A5C;
+    color: var(--cor-letraLight);
 }
 
-.dark .filter {
+.light .filter {
     background-color: unset;
-    color: #232A5C;
+    color: var(--cor-letraLight);
     margin-right: 20px;
 }
 
-.dark .banner-time {
-    border: 5px solid #F3F4FB;
+.light .banner-time {
+    border: 5px solid var(--cor-backgroundLight);
     border-radius: 10px;
 }
 
-.dark .title-events {
-    color: #232A5C;
+.light .title-events {
+    color: var(--cor-letraLight);
 }
 
-.dark .slide01{
-    background: linear-gradient(180deg, #F3F4FB 40.47%, #BABDD0 72.33%, #7D82A1 94.72%, #535981 122.27%, #232A5C 125.71%);
+.light .slide01{
+    background: var(--gradient-slideLight);
 }
 
-.dark p {
-    color:#292C3D;
+.light p {
+    color: var(--cor-backgroundCategoria);
 }
 
-.dark em {
-    color:#292C3D;
+.light em {
+    color: var(--cor-backgroundCategoria);
 }
 
-.dark .box {
-    background-color:#F3F4FB;
+.light .box {
+    background-color: var(--cor-backgroundLight);
 }
 
-.dark .container-categorias {
-    background-color: #e3e4e8;
+.light .container-categorias {
+    background-color: var(--cor-backgroundLightCategoria);
 }
 
-.dark #all-categorias {
-    background: linear-gradient(0deg, #F3F4FB, #F3F4FB),
-    linear-gradient(0deg, #F3F4FB, #F3F4FB);
+.light #all-categorias {
+    background: var(--gradient-lightAllCategoria);
 }
 
-.dark #all-categorias select {
+.light #all-categorias select {
     background-color: unset;
-    color: #E9521D;
+    color: var(--cor-hover);
 }
 
-.dark .all-categorias {
-    background-color: #FAFAFA;
-    color:#8085B2;
+.light .all-categorias {
+    background-color: var(--cor-background-allCategoria);
+    color: var(--cor-seeAll);
 }
 
-.dark .footer-line1 > div > p {
-    color:#232A5C;
+.light .footer-line1 > div > p {
+    color: var(--cor-letraLight);
 }
 
