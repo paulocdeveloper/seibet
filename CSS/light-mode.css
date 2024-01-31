@@ -104,7 +104,7 @@
     color: var(--cor-letraLight);
 }
 
-.item {
+.light .item {
     background: linear-gradient(180deg, #F3F4FB 40.47%, #BABDD0 72.33%, #7D82A1 94.72%, #535981 122.27%, #232A5C 125.71%);
 
 }
