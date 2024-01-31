@@ -409,7 +409,7 @@ section.slider{
 
 .box {
     width: 123px;
-    height: 46px;
+    height: 30px;
     border-radius: 8px;
     padding: 12px;
     margin: 5px;
@@ -471,6 +471,7 @@ section.slider{
 /* Inicio categorias */
 
 .container-categorias {
+    width: 98.5vw;
     display: flex;
     align-items: center;
     height: 130px;
@@ -480,6 +481,7 @@ section.slider{
 #all-categorias {
     width: 128px;
     height: 110px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -718,3 +720,80 @@ section.slider{
 .icon-mais18 {
     margin: 10px 0 30px 0;
 }
+
+
+/* CAROUSEL */
+
+
+
+  
+  #wrapper {
+    width: 100%;
+    max-width: 90vw;
+    position: relative;
+    left: 20px;
+  }
+  
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #prev,
+  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: 0px;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: grid;
+    grid-gap: 16px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .item {
+    width: 421px;
+    height: 220px;
+    border-radius: 8px;
+
+    list-style: none;
+
+    background: linear-gradient(180deg, #292B3D 50.04%, #E9521D 125.71%);
+
+  }
+
+  #wrapper2 {
+    width: 100%;
+    max-width: 90vw;
+    position: relative;
+    
+    
+  }
