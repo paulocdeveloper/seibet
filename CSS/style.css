@@ -778,6 +778,13 @@ section.slider{
     margin: auto;
     box-sizing: border-box;
   }
+
+  .img-games {
+    width: 171px;
+    height: 225px;
+    border-radius: 8px;
+
+  }
   
   .item {
     width: 421px;
